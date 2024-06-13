@@ -1,4 +1,4 @@
-# Cypress Tests for Personal Portfolio Website by Venkatesh Kamath
+# Cypress Tests for Personal Portfolio Website 
 
 This repository contains the Cypress tests, which are written for the personal portfolio website created by Venkatesh Kamath. The website itself is built using HTML, CSS & JavaScript, while the tests are designed to ensure its functionality and usability.
 
