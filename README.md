@@ -1,40 +1,32 @@
-# Personal Portfolio Website
+# Cypress Tests for Personal Portfolio Website by Venkatesh Kamath
 
-This repository contains the source code and files for my personal portfolio website. The website is built using HTML, CSS, and JavaScript.
+This repository contains the Cypress tests, which are written for the personal portfolio website created by Venkatesh Kamath. The website itself is built using HTML, CSS & JavaScript, while the tests are designed to ensure its functionality and usability.
 
 ## Description
 
-The personal portfolio website showcases my skills, projects, and experiences as a web developer. It serves as an online platform to highlight my work and provide information about my background and expertise.
+The primary objective of this project is to validate the personal portfolio website through comprehensive end-to-end (E2E) testing using Cypress. These tests cover various aspects of the website to ensure it functions as expected and provides a seamless user experience.
 
-## Features
+### Getting Started with Cypress Tests
 
-- Home: Introduces myself and provides a brief overview of my skills and interests.
-- About: Details my professional background, education, and relevant experience.
-- Projects: Showcases the projects I have worked on, including descriptions, screenshots, and links to live demos or repositories.
-- Skills: Lists the programming languages, frameworks, and tools I am proficient in.
-- Contact: Offers various ways to get in touch with me, such as through email, social media, or a contact form.
+To run the Cypress tests locally, follow these steps:
 
-## Technologies Used
+1. **Clone the repository:**
+   ```bash
+   git clone github.com/eraslmn/PortfolioWebsiteCypress.git
 
-- HTML: Markup language used for structuring the website.
-- CSS: Stylesheet language used for designing and formatting the website.
-- JavaScript: Programming language used for adding interactivity and dynamic features.
+1. **Using CMD (Command Prompt) or Git Bash, navigate to your folder where you've saved the project:**
+   ```bash
+   cd /path/to/the/project
 
-## Getting Started
+1. **Run the website on your local computer using http-server:**
+   ```bash
+   npm install -g http-server
+   http-server . -p 8080
 
-To view the website locally or make modifications, follow these steps:
+1. **Finally, open the Cypress Test Runner using the terminal or through CMD:**
+   ```bash
+   npx cypress open
+  
 
-1. Clone the repository: `git clone [repository URL]`
-2. Open the project folder in your preferred code editor.
-3. Open the `index.html` file in a web browser to view the website.
-
-## Contributing
-
-I appreciate any suggestions, feedback, or contributions to enhance this personal portfolio website. If you would like to contribute, please follow the guidelines in the `CONTRIBUTING.md` file.
-
-## Contact
-
-If you have any questions or inquiries, please feel free to reach out to me through the contact information provided in the website or by using the contact form.
-
-Thank you for visiting my personal portfolio repository! I hope you find it informative and visually appealing.
-![Portfolio](https://github.com/Venkateeshh/Portfolio-Website/assets/117290841/d05942e3-6970-47eb-9757-482f11bb6044)
+### SOURCE:
+https://github.com/Venkateeshh/Portfolio-Website
